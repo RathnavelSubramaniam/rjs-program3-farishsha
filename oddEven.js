@@ -14,5 +14,5 @@ const checkOddEven = (num) => {
     }
 };
 
-let number = 12;
+let number = 11;
 console.log(number + " is " + checkOddEven(number) + " Number");

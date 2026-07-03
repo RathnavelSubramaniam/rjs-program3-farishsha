@@ -7,11 +7,12 @@
 // checkOddEven(5) ? "Odd"
 
 const checkOddEven = (num) => {
-if(num % 2===0){
-    return "Even";
-}else{
-    return "odd";
-}
+    if (num % 2 === 0) {
+        return "Even";
+    } else {
+        return "Odd";
+    }
 };
 
-module.exports = checkOddEven;
+let number = 12;
+console.log(number + " is " + checkOddEven(number) + " Number");

@@ -7,8 +7,11 @@
 // checkOddEven(5) ? "Odd"
 
 const checkOddEven = (num) => {
-    // Write your code here
-
+if(num % 2===0){
+    return "Even";
+}else{
+    return "odd";
+}
 };
 
 module.exports = checkOddEven;
